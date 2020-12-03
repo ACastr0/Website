@@ -1,0 +1,58 @@
+:root{
+	--black: #C2A83E;
+	--white: #ffffff;
+	--blurple: #5f6a99;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Share Tech Mono', monospace;
+}
+p, li{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*.jumbotron{
+	display:flex;
+	padding:0;
+	align-items:center;
+	background-color:#243119;
+	color:white;
+}
+
+body{
+	background-color:#ffffff;
+}*/
+
+.container{
+	background-color:#ffffff;
+	padding:50px;
+	border-radius: 5px;
+	margin-bottom:100px;
+	/*text-align:right;*/
+	text-align:left;
+}
+
+.container h3{
+	color:#000000;
+}
+
+.carousel{
+	margin:20px 0px 20px 0px;
+}
+
+a{
+	color: #243119;
+}
+
+h3 a{
+	text-decoration:underline;
+}
+a:hover{
+	color: #000000;
+}
+
+.well{
+	text-align:left;
+	/*background-color:#5f6a99;*/
+}
